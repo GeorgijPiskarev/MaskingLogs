@@ -3,8 +3,7 @@
 
     <appender name="out" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
-            <layout class="com.example.demo.appender.MaskingPatternLayout">
-                <patternsProperty>custom</patternsProperty>
+            <layout class="com.example.demo.util.MaskingPatternLayout">
                 <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
             </layout>
         </encoder>

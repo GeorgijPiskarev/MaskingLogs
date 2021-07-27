@@ -1,4 +1,4 @@
-package com.example.demo.annotations;
+package com.example.demo.util;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

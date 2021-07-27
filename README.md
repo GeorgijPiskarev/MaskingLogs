@@ -1,6 +1,20 @@
-# MaskingLogs
-2021-07-27 09:58:46,341 [http-nio-8080-exec-2] ERROR c.example.demo.service.TestService - 1 {"id":2,"name":"******"}
+## MaskingLogs
 
-2021-07-27 09:58:46,342 [http-nio-8080-exec-2] ERROR c.example.demo.service.TestService - 2 TestModel1(id=null, fullName=****, sex=m)
+- toString:
+  
+    Group(client=Client(id=1, name=V****r),
+  
+    manager=Manager(id=2, surname=P***v),
+  
+    operator=Operator(id=3, fullName=I*******************h, sex=M))
 
-2021-07-27 09:58:46,342 [http-nio-8080-exec-2] ERROR c.example.demo.service.TestService - 3 TestModel2(id=null, surname=*************)
+
+- json: {
+  
+     "client":{"id":1,"name":"V****r"},
+  
+     "manager":{"id":2,"surname":"P***v"}
+  
+     "operator":{"id":3,"fullName":"I*******************h","sex":"M"}
+
+  }
