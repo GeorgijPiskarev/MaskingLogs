@@ -1,7 +1,7 @@
-package com.example.demo.controllers;
+package com.example.log.controllers;
 
-import com.example.demo.dto.Group;
-import com.example.demo.service.LogService;
+import com.example.log.dto.Group;
+import com.example.log.service.LogService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

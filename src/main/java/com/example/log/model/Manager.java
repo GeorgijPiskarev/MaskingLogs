@@ -1,6 +1,6 @@
-package com.example.demo.model;
+package com.example.log.model;
 
-import com.example.demo.util.Mask;
+import com.example.log.util.MaskLog;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -10,13 +10,11 @@ import javax.persistence.Id;
 @Entity
 @Data
 @Accessors(chain = true)
-public class Operator {
+public class Manager {
 
     @Id
     private Long id;
 
-    @Mask
-    private String fullName;
-
-    private String sex;
+    @MaskLog
+    private String surname;
 }

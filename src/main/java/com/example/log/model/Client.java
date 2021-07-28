@@ -1,6 +1,6 @@
-package com.example.demo.model;
+package com.example.log.model;
 
-import com.example.demo.util.Mask;
+import com.example.log.util.MaskLog;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -13,6 +13,6 @@ public class Client {
     @Id
     private Long id;
 
-    @Mask
+    @MaskLog
     private String name;
 }

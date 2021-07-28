@@ -1,8 +1,8 @@
-package com.example.demo.dto;
+package com.example.log.dto;
 
-import com.example.demo.model.Client;
-import com.example.demo.model.Manager;
-import com.example.demo.model.Operator;
+import com.example.log.model.Client;
+import com.example.log.model.Manager;
+import com.example.log.model.Operator;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
